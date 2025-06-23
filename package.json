@@ -1,0 +1,14 @@
+{
+  "name": "tmf724-node-api",
+  "version": "1.0.0",
+  "description": "Dummy TMF724 Incident Management API in Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "uuid": "^9.0.0"
+  }
+}
