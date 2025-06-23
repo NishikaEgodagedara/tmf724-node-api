@@ -29,7 +29,7 @@ function formatIncident(data) {
 }
 
 // List all incidents
-app.get('/tmf-api/Incident/v4/incident', (req, res) => {
+app.get('/tmf-api/Incident/v4', (req, res) => {
   res.json(incidents);
 });
 
